@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recycling Guide</title>
+  <link rel="stylesheet" href="recycling.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>♻️ Recycling Guide</h1>
+    <p class="subtitle">
+      Search an item to learn how to dispose of it responsibly.
+    </p>
+
+    <label for="search" class="sr-only">Search item</label>
+    <input
+      type="text"
+      id="search"
+      placeholder="Search an item (e.g. bottle, battery, stuffed animal)"
+      aria-label="Search recyclable item"
+    />
+
+    <div id="result" aria-live="polite"></div>
+
+    <div class="info-panel">
+      <h2>📊 Why Recycling Matters</h2>
+      <p>
+        Recycling reduces landfill waste, conserves natural resources,
+        saves energy, and protects the environment.
+      </p>
+      <ul>
+        <li>♻️ Conserves raw materials</li>
+        <li>🌍 Reduces pollution and emissions</li>
+        <li>🏭 Saves energy in manufacturing</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="recycling.js"></script>
+</body>
+</html>
